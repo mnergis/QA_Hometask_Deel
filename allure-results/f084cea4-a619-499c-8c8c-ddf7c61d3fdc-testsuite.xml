@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645991544561' stop='1645991581045'>
+    <name>Deel Contract</name>
+    <title>Deel Contract</title>
+    <test-cases>
+        <test-case start='1645991545368' status='passed' stop='1645991565780'>
+            <name>Create Fixed Type Contract</name>
+            <title>Create Fixed Type Contract</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1645991565780' status='passed' stop='1645991581045'>
+            <name>Create Fixed Type Contract-2-Clone Second Part</name>
+            <title>Create Fixed Type Contract-2-Clone Second Part</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

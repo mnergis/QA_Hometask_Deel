@@ -1,0 +1,27 @@
+{
+  "name": "deel",
+  "version": "1.0.0",
+  "description": "A sample contract creation at Deel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=0 'src/index.js' --reporter mocha-allure-reporter",
+    "generate-report": "allure generate ./allure-results -o ./HTML_Report --clean"
+  },
+  "keywords": [
+    "Automation"
+  ],
+  "author": "Nergiz Afatsun",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.17.2",
+    "const": "^1.0.0",
+    "fs-extra": "^10.0.1",
+    "mocha": "^9.2.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "playwright": "^1.19.2",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "allure-mocha": "^2.0.0-beta.15"
+  }
+}
